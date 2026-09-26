@@ -135,7 +135,28 @@ html, body {
 
 @media (orientation: portrait) {
     #a > div {
-        margin: 2em 2em;
-        font-size: 2em;
+        margin: 2em 1.8em;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    #b {
+        font-size: 3em;
+    }
+
+    #c h1 {
+        font-size: 4em;
+    }
+
+    #c div {
+        font-size: 4em;
+    }
+
+    #d {
+        margin: 15em 0em 20em 0em;
+    }
+
+    #d a {
+        font-size: 4em;
     }
 }
